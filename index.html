@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <script>
+        let mat1 = [[0, 0], [0, 0]];
+        let mat2 = [[0, 0], [0, 0]];
+        let result = [[0, 0], [0, 0]]
+
+        for (let i = 0; i < mat1.length; i++) {
+            for (let j = 0; j < mat1[i].length; j++) {
+                mat1[i][j] = +prompt("getting matrix one data")
+
+            } 
+        }
+
+        console.log(mat1
+        
+    )
+
+        for (let i = 0; i < mat2.length; i++) {
+            for (let j = 0; j < mat2[i].length; j++) {
+                mat2[i][j] = +prompt("getting matrix two data")
+
+
+            }
+        }
+
+
+
+
+
+
+                                   
+
+        console.log(mat2)
+
+        for (let i = 0; i < result.length; i++) {
+            for (let j = 0; j < result[i].length; j++) {
+                result[i][j] = (mat1[i][j] + mat2[i][j])
+
+            }
+        }
+
+        
+
+        console.log(result)
+    </script>
+</body>
+
+</html>
